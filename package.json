@@ -1,0 +1,14 @@
+{
+  "name": "sort-lines",
+  "version": "1.0.0",
+  "description": "Intelligently sorts lines of code",
+  "main": "src/sort.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "Apache 2",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

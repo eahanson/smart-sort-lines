@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+trap "exit" INT
+
+git pull --rebase
+bin/dev/build
+bin/dev/test

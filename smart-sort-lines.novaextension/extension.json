@@ -1,0 +1,22 @@
+{
+  "identifier": "eahanson.smart-sort-lines",
+  "name": "Smart Sort Lines",
+  "organization": "Erik Hanson",
+  "description": "Sorts lines of text with a tiny bit of intelligence",
+  "version": "1.0",
+  "categories": ["commands"],
+  "main": "main.js",
+  "activationEvents": ["onLanguage:javascript"],
+  "entitlements": {
+    "process": true
+  },
+  "commands": {
+    "editor": [
+      {
+        "title": "Smart Sort Lines",
+        "command": "smart-sort-lines.sort",
+        "when": "editorHasSelection"
+      }
+    ]
+  }
+}

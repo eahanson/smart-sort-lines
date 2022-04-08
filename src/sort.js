@@ -17,9 +17,8 @@ function sortLines(text) {
 
     lines = text.split("\n").filter(isPresent);
     [lines, surroundStart, surroundEnd] = unsurround(lines);
-    const isList = isCommaSeparated(lines);
 
-    if (isList) {
+    if (isCommaSeparated(lines)) {
       lines = removeTrailingCommas(lines);
       joiner = ",\n";
     } else {
@@ -30,8 +29,7 @@ function sortLines(text) {
       surroundStart = surroundStart + "\n";
       surroundEnd = surroundEnd + "\n";
     } else {
-      surroundStart = "";
-      surroundEnd = "";
+      surroundStart = surroundEnd = "";
     }
 
     lines.sort(isort);

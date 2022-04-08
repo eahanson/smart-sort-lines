@@ -41,5 +41,9 @@ describe("sortLines", () => {
     );
   });
 
-  // test("preserves surrounding parens when lines do not end with commas", () => {});
+  test("preserves surrounding parens when lines do not end with commas", () => {
+    expect(sortLines("[\n  cat\n  ant\n  bat\n]")).toBe(
+      "[\n  ant\n  bat\n  cat\n]\n"
+    );
+  });
 });

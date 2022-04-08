@@ -11,3 +11,7 @@ To run Smart Sort Lines:
 
 - Select the **Editor → Smart Sort Lines** menu item; or
 - Open the command palette and type `Smart Sort Lines`
+
+## Contributing
+
+Contributions are welcome. See [the outer project's README](../README.md).

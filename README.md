@@ -40,3 +40,8 @@ It also includes a [Nova](https://nova.app) extension.
     [ ] fix: sometimes it adds an extra newline
     [ ] maybe handle other trailing characters
     [ ] maybe handle other surrounding characters
+
+## Contributing
+
+Contributions are welcome. Please use `bin/dev/build` to copy changes to the main JS into the Nova extension dir.
+Use `bin/dev/test` to run all the tests.

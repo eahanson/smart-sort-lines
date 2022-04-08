@@ -1,15 +1,7 @@
 {
-  "identifier": "eahanson.smart-sort-lines",
-  "name": "Smart Sort Lines",
-  "organization": "Erik Hanson",
-  "description": "Sorts lines of text with a tiny bit of intelligence",
-  "version": "1.0",
-  "categories": ["commands"],
-  "main": "main.js",
   "activationEvents": ["onLanguage:javascript"],
-  "entitlements": {
-    "process": true
-  },
+  "bugs": "https://github.com/eahanson/smart-sort-lines/issues",
+  "categories": ["commands"],
   "commands": {
     "editor": [
       {
@@ -18,5 +10,16 @@
         "when": "editorHasSelection"
       }
     ]
-  }
+  },
+  "description": "Sorts lines of code with a tiny bit of intelligence",
+  "entitlements": {
+    "process": true
+  },
+  "homepage": "https://github.com/eahanson/smart-sort-lines",
+  "identifier": "eahanson.smart-sort-lines",
+  "main": "main.js",
+  "name": "Smart Sort Lines",
+  "organization": "Erik Hanson",
+  "repository": "https://github.com/eahanson/smart-sort-lines",
+  "version": "1.0"
 }

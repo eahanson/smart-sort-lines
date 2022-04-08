@@ -1,9 +1,8 @@
 #!/bin/bash
 
-set -e
-set -u
-set -o pipefail
-
+set +x
+set -euo pipefail
 trap "exit" INT
+set -x
 
 npm run test

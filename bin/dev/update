@@ -1,10 +1,8 @@
 #!/bin/bash
 
-set -e
-set -u
-set -o pipefail
-
+set -euo pipefail
 trap "exit" INT
+set -x
 
 git pull --rebase
 bin/dev/build

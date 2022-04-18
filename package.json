@@ -1,12 +1,12 @@
 {
   "name": "sort-lines",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Intelligently sorts lines of code",
   "main": "src/sort.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
+  "author": "Erik Hanson",
   "license": "Apache 2",
   "devDependencies": {
     "jest": "^27.5.1"

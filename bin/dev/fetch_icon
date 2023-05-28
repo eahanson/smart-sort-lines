@@ -1,0 +1,28 @@
+#!/bin/bash
+
+set -eo pipefail
+source "bin/_support/cecho.sh"
+source "bin/_support/step.sh"
+
+dir="smart-sort-lines.novaextension"
+icon=${1:-"sort-descending"}
+
+step_with_output "Brew bundle" \
+  "brew bundle"
+
+step_with_output "Downloading ${icon}.svg" \
+  "curl 'https://tabler-icons.io/static/tabler-icons/icons/${icon}.svg' -o ${dir}/extension.svg"
+
+step_with_output "Setting stroke-width to 1" \
+  "sed -i '' -e 's/stroke-width=\"[^\"]*\"/stroke-width=\"1\"/g' '${dir}/extension.svg'"
+
+step_with_output "Setting stroke color to ff0000" \
+  "sed -i '' -e 's/stroke=\"currentColor\"/stroke=\"#ff0000\"/g' '${dir}/extension.svg'"
+
+step_with_output "Converting to png" \
+  "rsvg-convert -h 256 ${dir}/extension.svg > ${dir}/extension.png"
+
+step_with_output "Making a duplicate for the 2x version" \
+  "cp ${dir}/extension.png '${dir}/extension@2x.png'"
+
+git st

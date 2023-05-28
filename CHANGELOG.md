@@ -1,3 +1,7 @@
+## Version 1.0.3
+
+Documentation updates.
+
 ## Version 1.0.2
 
 Fix issue that might have prevented the Nova extension from activating.

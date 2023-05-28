@@ -38,5 +38,4 @@ Contributions are welcome. See [the outer project's README](https://github.com/e
 
 ## License, Copyright, Attributions
 
-Copyright 2022 Erik Hanson. See [LICENSE](LICENSE). The extension icon is a modified version of an icon from
-[Font Awesome](https://fontawesome.com/) which is licensed under [CC BY 4.0](https://fontawesome.com/license).
+Copyright 2023 Erik Hanson. See [LICENSE](https://github.com/eahanson/smart-sort-lines/smart-sort-lines.novaextension/blob/main/LICENSE).

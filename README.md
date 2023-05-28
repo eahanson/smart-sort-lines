@@ -29,7 +29,7 @@ gets sorted to:
 
 ## Nova extension
 
-It also includes a [Nova](https://nova.app) extension.
+It also includes a [Nova](https://nova.app) extension. See [its readme](smart-sort-lines.novaextension/README.md).
 
 ## TODO
 
@@ -45,3 +45,7 @@ It also includes a [Nova](https://nova.app) extension.
 
 Contributions are welcome. Please use `bin/dev/build` to copy changes to the main JS into the Nova extension dir.
 Use `bin/dev/test` to run all the tests.
+
+## License, Copyright, Attributions
+
+Copyright 2023 Erik Hanson. See [LICENSE](https://github.com/eahanson/smart-sort-lines/blob/main/LICENSE).

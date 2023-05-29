@@ -36,7 +36,7 @@ To run Smart Sort Lines:
 
 Contributions are welcome. See [the outer project's README](https://github.com/eahanson/smart-sort-lines/blob/main/README.md).
 
-## Nova extensions I’ve written
+## Other Nova extensions you might like :)
 
 - **Document Sections** lets you jump around to various sections in a text document using a customizable marker
   (typically a code comment in a certain format).

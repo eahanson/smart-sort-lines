@@ -38,6 +38,11 @@ Contributions are welcome. See [the outer project's README](https://github.com/e
 
 ## Other Nova extensions you might like :)
 
+- **Copy Path** copies the absolute or relative path of the current file, optionally including the line number and
+  column number.
+  [GitHub](https://github.com/eahanson/copy-path.novaextension) /
+  [website](https://extensions.panic.com/extensions/eahanson/eahanson.copy-path/)
+
 - **Document Sections** lets you jump around to various sections in a text document using a customizable marker
   (typically a code comment in a certain format).
   [GitHub](https://github.com/eahanson/document-sections.novaextension) /
